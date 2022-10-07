@@ -1,0 +1,97 @@
+.list-container{
+    width: 100%;
+    height: fit-content;
+    margin: 1rem 0;
+}
+.list-container_header{
+    background-color: var(--secondary);
+    color: var(--third);
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.list-container_header_title{
+    border-radius: 5px;
+    text-align: center;
+    font-size: .8rem;
+}
+.list-container_body{
+    margin-top: 10px;
+    width: 100%;
+    height: 35vh;
+    overflow-y: scroll;
+}
+.list-container_body_lists{
+    color: var(--third);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+.list-container_body_title{
+    text-align: center;
+}
+.title-delete{
+    margin: 5px 9px;
+    padding: 5px 0;
+    width: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.title-name{
+    margin: 5px 9px;
+    padding: 5px 0;
+    width: 130px;
+}
+.title-date{
+    margin: 5px 9px;
+    padding: 5px 0;
+    width: 100px;
+}
+.title-start{
+    margin: 5px 9px;
+    padding: 5px 0;
+    width: 30px;
+}
+.title-end{
+    margin: 5px 9px;
+    padding: 5px 0;
+    width: 30px;
+}
+.title-color{
+    margin: 5px 9px;
+    padding: 5px 0;
+    width: 70px;
+}
+.title-delete-icon{
+    color: var(--third);
+}
+@media only screen and (max-width: 500px){
+    .list-container{
+        width: 95%;
+        height: fit-content;
+        margin: 1rem auto;
+    }
+}
+@media only screen and (max-width: 440px){
+    .list-container_header_title{
+        font-size: .6rem;
+    }
+    .list-container_body_lists{
+        font-size: .5rem;
+    }
+    .title-delete-icon{
+        font-size: .5rem;
+    }  
+    .list-container_body_lists{
+        margin: 0;
+        padding: 0;
+    }
+    .list-container_header_title{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

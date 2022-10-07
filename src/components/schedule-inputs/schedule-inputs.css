@@ -1,0 +1,111 @@
+form{
+    margin: 0 auto;
+    width: 100%;
+}
+form input{
+    width: 90%;
+    background-color: #15151a;
+    color: #b0b2c3;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: .5rem 5%;
+    outline: none;
+}
+.select-inputs{
+    margin:1rem 0;
+   display: grid;
+   grid-template-areas: 
+   'sel1 sel2'
+   'sel3 sel4';
+   gap: 10px;
+   place-content: center;
+}
+.select1{
+    margin-left: 5rem;
+    grid-area: sel1;
+}
+.select2{
+    grid-area: sel2;
+}
+.select3{
+    grid-area: sel4;
+}
+.select4{
+    margin-left: 5rem;
+    grid-area: sel3;
+}
+select{
+    background-color: #15151a;
+    color: #b0b2c3;
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+form button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 48%;
+    padding: .5rem 0;
+    font-family: iransans-bold;
+}
+.add-new-btn{
+    background-color: #15151a;
+    color: #b0b2c3;
+    margin-left: 4%;
+}
+.add-new-btn:hover{
+    background-color: #0d0d10;
+}
+.make-schedule-btn{
+    background-color: #b0b2c3;
+    color: #15151a;
+}
+.make-schedule-btn:hover{
+    background-color: #9193a2;
+}
+@media only screen and (max-width: 500px){
+    form input{
+        display: block;
+        margin: 0 auto;
+        width: 85%;
+    }
+    .add-new-btn{
+        margin-left: auto;
+    }
+    form button{
+        display: block;
+        margin: .5rem auto;
+        width: 95%;
+    }
+    .select-inputs{
+        margin:2rem 0;
+    }
+    .select1{
+        margin-left: 0;
+    }
+    .select4{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 380px){
+    form input{
+        font-size: .9rem;
+    }
+    .select-inputs{
+        margin: .8rem 0;
+    }
+    .select-group{
+        font-size: .6rem;
+    }
+    select{
+        font-size: .6rem;
+        padding: .4rem;
+    }
+    form button{
+        padding: .3rem 0;
+        font-size: .7rem;
+    }
+}

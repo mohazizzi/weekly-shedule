@@ -1,0 +1,89 @@
+.schedule{
+    background-color: var(--primary);
+    margin-top: 40rem;
+    font-size: 1.3rem;
+    width: fit-content;
+}
+.schedule_header{
+    margin: 1rem auto;
+    width: 1210px;
+    height: 60px;
+    background-color: var(--forth);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--third);
+}
+.schedule_header_weekdays{
+    background-color: var(--secondary);
+    height: 50px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.schedule_header_hours{
+    position: relative;
+    background-color: var(--secondary);
+    height: 50px;
+    width: 1080px;
+    border-radius: 10px;
+}
+.schedule_header_hours span{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.span1{right: 0px;}
+.span2{right: 90px;}
+.span3{right: 180px;}
+.span4{right: 270px;}
+.span5{right: 360px;}
+.span6{right: 450px;}
+.span7{right: 540px;}
+.span8{right: 630px;}
+.span9{right: 720px;}
+.span10{right: 810px;}
+.span11{right: 900px;}
+.span12{right: 990px;}
+/* ------------------------- */
+.schedule_body{
+    margin: 0 auto 1rem auto;
+    width: 1210px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.schedule_body_weekdays{
+    background-color: var(--secondary);
+    color: var(--third);
+    height: 50px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.schedule_body_hours{
+    position: relative;
+    background-color: var(--secondary);
+    color: var(--fifth);
+    height: 50px;
+    width: 1080px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* -------------------------- */
+.task{
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
