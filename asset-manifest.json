@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/weekly-schedule/static/css/main.2d611c8d.css",
+    "main.js": "/weekly-schedule/static/js/main.17cb6d9d.js",
+    "static/js/787.a25c6cf5.chunk.js": "/weekly-schedule/static/js/787.a25c6cf5.chunk.js",
+    "static/media/IRANSans-Light-web.ttf": "/weekly-schedule/static/media/IRANSans-Light-web.71f8e92a06de4f9a6039.ttf",
+    "static/media/IRANSans-Bold-web.ttf": "/weekly-schedule/static/media/IRANSans-Bold-web.ac55ea1ecefe68435f37.ttf",
+    "static/media/IRANSans-Light-web.woff": "/weekly-schedule/static/media/IRANSans-Light-web.0057181b7ea25b0bbc51.woff",
+    "static/media/IRANSans-Bold-web.woff": "/weekly-schedule/static/media/IRANSans-Bold-web.955d345afd75e29acf58.woff",
+    "static/media/IRANSans-Light-web.eot": "/weekly-schedule/static/media/IRANSans-Light-web.9f1489d9f1456a7e8836.eot",
+    "static/media/IRANSans-Bold-web.eot": "/weekly-schedule/static/media/IRANSans-Bold-web.3e2c7e98b62e7800bd63.eot",
+    "static/media/IRANSans-Light-web.woff2": "/weekly-schedule/static/media/IRANSans-Light-web.449497382fb8cac671e7.woff2",
+    "static/media/IRANSans-Bold-web.woff2": "/weekly-schedule/static/media/IRANSans-Bold-web.3bd2766ae1257b5afe3d.woff2",
+    "index.html": "/weekly-schedule/index.html",
+    "main.2d611c8d.css.map": "/weekly-schedule/static/css/main.2d611c8d.css.map",
+    "main.17cb6d9d.js.map": "/weekly-schedule/static/js/main.17cb6d9d.js.map",
+    "787.a25c6cf5.chunk.js.map": "/weekly-schedule/static/js/787.a25c6cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d611c8d.css",
+    "static/js/main.17cb6d9d.js"
+  ]
+}
