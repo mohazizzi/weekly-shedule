@@ -1,3 +1,3 @@
 # weekly schedule maker
 
-[Live Demo](http://mohazizzi.ir/weekly-shedule/)
+[Live Demo](https://mohazizzi.github.io/weekly-shedule/)
